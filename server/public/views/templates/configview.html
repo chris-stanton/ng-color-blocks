@@ -3,9 +3,9 @@
 <div>
   <h1 id="settingTitle">Settings</h1>
   <div id="settingDiv">
-    <label id="settingLabel">Add Color</label>
+    <label id="settingLabel">Add Color:</label>
     <input ng-model="settings.newColor" placeholder="Add Standard Color Here" type="text" name="newColor" id="settingInput">
-    <button ng-click="settings.addColor()"type="button" name="button">Submit</button>
+    <button ng-click="settings.addColor()"type="button" name="button" id="settingButton">Submit</button>
   </div>
   <table>
     <tr ng-repeat="colors in settings.colors">

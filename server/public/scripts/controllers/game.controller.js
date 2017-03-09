@@ -1,4 +1,4 @@
-colorBlocks.controller('GameController', ['DataFactory', function(DataFactory) {
+colorBlocks.controller('GameController', ['$http', 'DataFactory', function($http, DataFactory) {
 
 console.log('game controller running');
 

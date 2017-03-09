@@ -3,9 +3,9 @@ colorBlocks.factory('DataFactory', ['$http', function($http) {
 
   self.colors = ['red', 'blue', 'magenta', 'green', 'pink'];
 
-
+//sends colors arrray
   return {
     allColors: colors
   };
 
-}]);
+}]);//end of colorBlocks.factory

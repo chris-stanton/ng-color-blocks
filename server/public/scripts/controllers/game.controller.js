@@ -4,6 +4,7 @@ console.log('game controller running');
 
 var self = this;
 
+//pulls allColor array from data.factory.js
 self.colors = DataFactory.allColors;
 
 // start game

@@ -24,8 +24,8 @@ Add Colors UI
 
 Allow the player to enter new colors into the game from the Settings view. Colors need to match a valid CSS color in order to work in the game!
 
-HARD MODE
+HARD MODE:
 Allow the player to edit the colors on the Settings view as well. Hint: Create a way to do CRUD operations.
 
-PRO MODE
+PRO MODE:
 Introduce a way to track the player's winning streak high score. Add another route and view for High Scores and allow the player to enter their name when they play a game and beat the current high score. The history of high scores should be displayed on the High Scores view!
